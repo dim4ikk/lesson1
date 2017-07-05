@@ -1,0 +1,167 @@
+body {
+   position: absolute;
+   margin: 0 auto; /*убирает отступы от краев окна браузера и без auto*/
+    /*нужно ли auto для центровки?*/
+   width: 100%; /*нужно ли?*/
+    height: 1250px;
+}
+
+header {
+    position: relative;
+    margin-top: 0px;
+    height: 100px;
+    background-color: #e94643;
+    z-index: 2;
+}
+.logo {
+    display: inline-block;
+    margin-left: 230px;
+    margin-top: 46px;
+}
+.contactus {
+    position: absolute;
+    display: inline-block;
+    right: 95px;
+    top: 51px;
+    line-height: 9px; /*чтобы CONTACT US отмерять от верха окна браузера*/
+     
+}
+
+header a {
+    color: white;
+    font-family: Tahoma;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+.underline {
+    background-color: #fdd835;
+    position: absolute;
+    right: 95px;
+    top: 69px;
+    width: 106px;
+    height: 3px;
+}
+.greenarea {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 22px;
+    background-color: #04e4a2;
+    z-index: 3;
+}
+.section {
+    position: relative;
+    background-color: #ef5350;
+    height: 1097px;
+    top: -101px;
+    z-index: 1;
+}
+.phone_frame {
+  position: absolute;
+  left: 191px;
+  top: 164px;
+  width: 388px;
+  height: 814px;
+  z-index: 14;
+}
+.phone-screen {
+    position: absolute;
+  left: 220px;
+  top: 277px;
+  width: 329px;
+  height: 583px;
+  z-index: 15;
+}
+.green-diagonal {
+  
+}
+.caption h1 {
+    position: absolute;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 30pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    top: 256px;
+    left: 710px;
+    z-index: 20;
+}
+.text {
+    position: relative;
+    left: 710px;
+    top: 395px;
+    color: white;
+    font-family: Arial;
+    font-size: 19pt;
+    font-weight: 100;
+    width: 650px;
+    text-align: justify;
+}
+.greenbutton {
+  border-radius: 6px;
+  background-color: rgb(4, 228, 162);
+  position: absolute;
+  left: 1042px;
+  top: 501px;
+  width: 166px;
+  height: 54px;
+}
+.greenbutton p {
+    position: relative;
+    top: -2px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 19px;
+    color: white;      
+}
+
+form {
+    position: absolute;
+    top: 717px;
+    left: 0px;
+}
+
+footer {
+    background-color: white;
+    position: relative;
+    widows: 100%;
+    height: 73px;
+    top: -120px;
+    z-index: 5;
+}
+.footer-copyright {
+    position: absolute;
+    display: inline-block;
+    left: 192px;
+    top: 27px;
+    width: auto;
+    font-size: 18px;
+    font-family: Arial;
+}
+.footer-email {
+    position: absolute;
+    display: inline-block;
+    left: 756px;
+    top:  27px;
+    width: auto;
+    font-size: 18px;
+    font-family: Arial;
+    
+}
+footer a {
+    text-decoration: none;
+    color: #636363;
+}
+footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.mailicon {
+    position: relative;
+    display: inline-block;
+    left: 707px;
+    top: 21px;
+
+}
